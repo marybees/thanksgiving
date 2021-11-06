@@ -1,10 +1,10 @@
 import React from 'react'
 
-export const Nav = () => {
+const Nav = () => {
     return (
-        <div>
+        <div className="nav-body">
             <h2>THANKSGIVING</h2>
-            <div>
+            <div className="nav-body-half">
                 <h3>PICK A</h3>
                 <h3>DISH</h3>
                 <h3>SEAT</h3>
@@ -12,3 +12,6 @@ export const Nav = () => {
         </div>
     )
 }
+
+export default Nav
+
