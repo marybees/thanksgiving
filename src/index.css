@@ -108,15 +108,20 @@ body {
 .nav-body h2{
     font-family: 'La Belle Aurore', cursive;
     font-weight: 100;
+    margin-left: 1rem;
 }
 
 .nav-body h3 {
     font-size: 1rem;
-    margin-right: .5rem;
+    margin-right: 1rem;
 }
 
 .nav-body-half {
     display: flex;
+}
+
+.link:hover {
+    color: #8aa48b;
 }
 
 #footer {
