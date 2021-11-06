@@ -12,10 +12,12 @@ const Home = () => {
           <div id="body-two-heading-container">
             <div className="body-two-heading">
               <p>WHEN</p>
+              <i class="fab fa-pagelines"></i>
               <p>THURSDAY, NOVEMBER 26</p>
             </div>
             <div className="body-two-heading">
               <p>WHERE</p>
+              <i class="fab fa-pagelines"></i>
               <p>20 ROOS ROAD, EAST SANDWICH, MA 02537</p>
             </div>
           </div>
