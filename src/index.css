@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Comfortaa', cursive;
     font-size: 1rem;
+    color: #735147;
 }
 
 .body {
@@ -118,6 +119,7 @@ body {
 
 .nav-body-half {
     display: flex;
+    align-items: center;
 }
 
 .link:hover {
@@ -137,4 +139,22 @@ body {
 
 #footer i {
     margin: 0 .25rem;
+}
+
+#guest-list {
+    background-color: #8aa48b;
+    margin: none;
+    padding: 2rem;
+    height: 75vh;
+    background-image: url("./bw-turkey.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:auto;
+}
+
+.page-title {
+    font-family: 'La Belle Aurore', cursive;
+    text-shadow: 2px 2px #ffff;
+    font-size: 3.25rem;
+    text-align: center;
 }
