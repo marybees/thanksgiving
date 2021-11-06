@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 import Nav from "./Nav";
 import Footer from "./Footer";
@@ -6,7 +6,6 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <div>
-      <Nav />
       <div className="body">
         <div className="body-half" id="body-two">
           <div id="body-two-heading-container">
@@ -22,16 +21,19 @@ const Home = () => {
             </div>
           </div>
           <div id="body-two-title">
-              <h1>Thanksgiving Dinner</h1>
+            <h1>Thanksgiving Dinner</h1>
           </div>
           <div className="body-two-subtitle">
-              <p>HOSTED BY</p>
+            <p>HOSTED BY</p>
           </div>
           <div className="body-two-cursive">
             <p>Will, Mary & Tubby Washburn</p>
           </div>
           <div>
-            <p>Join us for food, catching up, and then probably more food. Come hungry!</p>
+            <p>
+              Join us for food, catching up, and then probably more food. Come
+              hungry!
+            </p>
           </div>
         </div>
         <div className="body-half" id="body-one">
@@ -39,10 +41,8 @@ const Home = () => {
           <h1>family, friends, & food</h1>
         </div>
       </div>
-      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Home
-
+export default Home;
