@@ -2,12 +2,12 @@ import React from "react";
 
 const Seat = () => {
   return (
-    <div>
-      <div className="body-two-subtitle">
-        <p>GUEST LIST</p>
+    <div id="guest-list">
+      <div className="page-title">
+        <p>Guest List</p>
       </div>
       <div id="guest-list-container">
-        <div className="body-two-cursive guest-list-column">
+        <div className="body-two-cursive guest-list-column" style={{ textAlign: "right" }}>
           <p>Ryan Baker</p>
           <p>Sarah Baker</p>
           <p>Lisa Denney</p>
@@ -24,7 +24,7 @@ const Seat = () => {
           <p>Sue Washburn</p>
           <p>Will Washburn</p>
         </div>
-        <div className="body-two-cursive guest-list-column">
+        <div className="body-two-cursive guest-list-column" style={{ textAlign: "left" }}>
           <p>Noël Briand</p>
           <p>Donna Higgie</p>
         </div>
