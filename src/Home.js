@@ -12,7 +12,7 @@ const Home = () => {
             <div className="body-two-heading">
               <p>WHEN</p>
               <i class="fab fa-pagelines"></i>
-              <p>THURSDAY, NOVEMBER 26</p>
+              <p>THURSDAY, NOVEMBER 26 @ 1:00 PM</p>
             </div>
             <div className="body-two-heading">
               <p>WHERE</p>
