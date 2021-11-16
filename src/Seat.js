@@ -24,10 +24,6 @@ const Seat = () => {
           <p>Sue Washburn</p>
           <p>Will Washburn</p>
         </div>
-        <div className="body-two-cursive guest-list-column" style={{ textAlign: "left" }}>
-          <p>Noël Briand</p>
-          <p>Donna Higgie</p>
-        </div>
       </div>
     </div>
   );

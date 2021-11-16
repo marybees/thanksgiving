@@ -1,53 +1,30 @@
-import React, { useState } from "react";
+import React from "react";
 
 const Dish = () => {
-//   const [value, setValue] = useState("");
-//   const [dishList, setDishList] = {}
-
-//   const dish = (guestName, dishInput) => {
-//     `${guestName}: ${dishInput[guestName]}`;
-//   }
-
-//   const handleChange = (e) => {
-//     setValue(e.target.value);
-//   };
-
-//   const handleSubmit = (e) => {
-//       e.preventDefault();
-//       setDishList(dish)
-
-//   }
-
   return (
     <div className="page-container">
       <div className="page-title">
-        <p>Bring a Dish</p>
+        <p>Guest List</p>
       </div>
-      <form>
-        <label>
-          Select your name:
-          <select>
-            <option>Ryan Baker</option>
-            <option>Sarah Baker</option>
-            <option>Lisa Denney</option>
-            <option>Chris Griffith</option>
-            <option>CJ Griffith</option>
-            <option>Erin Griffith</option>
-            <option>Wesley Griffith</option>
-            <option>Mary Washburn</option>
-            <option>Rik Washburn</option>
-            <option>Sue Washburn</option>
-            <option>Will Washburn</option>
-            <option>Noël Briand</option>
-            <option>Donna Higgie</option>
-          </select>
-        </label>
-        <input type="text"  name="dish"  />
-        {/* value={value} */}
-        {/* onChange={handleChange} */}
-        <button >submit</button>
-        {/* onSubmit={handleSubmit} */}
-      </form>
+      <div id="guest-list-container">
+        <div className="body-two-cursive guest-list-column" style={{ textAlign: "right" }}>
+          <p>Ryan Baker</p>
+          <p>Sarah Baker</p>
+          <p>Lisa Denney</p>
+        </div>
+        <div className="body-two-cursive guest-list-column">
+          <p>Chris Griffith</p>
+          <p>CJ Griffith</p>
+          <p>Erin Griffith</p>
+          <p>Wesley Griffith</p>
+        </div>
+        <div className="body-two-cursive guest-list-column">
+          <p>Mary Washburn</p>
+          <p>Rik Washburn</p>
+          <p>Sue Washburn</p>
+          <p>Will Washburn</p>
+        </div>
+      </div>
     </div>
   );
 };

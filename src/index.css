@@ -7,7 +7,6 @@ body {
 
 .body {
     display: flex;
-    flex-wrap: wrap;
 }
 
 .body-half {
@@ -178,6 +177,9 @@ body {
         line-height: 10px;
         width: 100%;
     }
+    .body {
+        flex-wrap: wrap;
+    }
     .body-half {
         width: 100%;
     }
@@ -187,6 +189,9 @@ body {
     #body-one {
         text-align: center;
         line-height: normal;
+    }
+    #body-two {
+        height: auto;
     }
     #guest-list {
         height: 100vh;
@@ -200,4 +205,7 @@ body {
     .guest-list-column p {
         font-size: 1rem;
     }
-  }
+    .page-container {
+        height: auto;
+    }
+}
