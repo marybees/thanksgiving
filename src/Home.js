@@ -29,7 +29,7 @@ const Home = () => {
           <div className="body-two-cursive">
             <p>Will, Mary & Tubby Washburn</p>
           </div>
-          <div>
+          <div className="body-two-paragraph">
             <p>
               Join us for food, catching up, and then probably more food. Come
               hungry!
