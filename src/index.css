@@ -141,7 +141,7 @@ body {
     margin: 0 .25rem;
 }
 
-#guest-list {
+.page-container {
     background-color: #8aa48b;
     margin: none;
     padding: 2rem;

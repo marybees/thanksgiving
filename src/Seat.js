@@ -2,7 +2,7 @@ import React from "react";
 
 const Seat = () => {
   return (
-    <div id="guest-list">
+    <div className="page-container">
       <div className="page-title">
         <p>Guest List</p>
       </div>
