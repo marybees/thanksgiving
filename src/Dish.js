@@ -5,7 +5,7 @@ const Dish = () => {
   return (
     <div className="page-container">
       <div className="page-title">
-        <p>Who's Bringing What</p>
+        <div>Who's Bringing What</div>
       </div>
       <div className="image">
         <img src={turkey} alt="turkey"/>

@@ -4,7 +4,7 @@ const Seat = () => {
   return (
     <div className="page-container">
       <div className="page-title">
-        <p>Guest List</p>
+        <div>Guest List</div>
       </div>
       <div id="guest-list-container">
         <div className="body-two-cursive guest-list-column">
