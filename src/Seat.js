@@ -1,10 +1,14 @@
 import React from "react";
+import turkey from "./bw-turkey.png";
 
 const Seat = () => {
   return (
     <div className="page-container">
       <div className="page-title">
         <div>Guest List</div>
+      </div>
+      <div className="image">
+        <img src={turkey} alt="turkey" />
       </div>
       <div id="guest-list-container">
         <div className="body-two-cursive guest-list-column">
