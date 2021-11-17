@@ -18,7 +18,7 @@ const Nav = () => {
       </div>
       <div className="nav-body-half">
         <Link style={{ textDecoration: "none", color: "white" }} to="/dish">
-          <h3 className="link">BRING A DISH</h3>
+          <h3 className="link">DISHES</h3>
         </Link>
         <Link style={{ textDecoration: "none", color: "white" }} to="/seat">
           <h3 className="link">GUEST LIST</h3>
