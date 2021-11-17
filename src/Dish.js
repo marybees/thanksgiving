@@ -11,22 +11,27 @@ const Dish = () => {
         <img src={turkey} alt="turkey"/>
       </div>
       <div id="guest-list-container">
-        <div className="body-two-cursive guest-list-column">
-          <p>Ryan Baker</p>
-          <p>Sarah Baker</p>
-          <p>Lisa Denney</p>
-        </div>
-        <div className="body-two-cursive guest-list-column">
-          <p>Chris Griffith</p>
-          <p>CJ Griffith</p>
-          <p>Erin Griffith</p>
-          <p>Wesley Griffith</p>
-        </div>
-        <div className="body-two-cursive guest-list-column">
-          <p>Mary Washburn</p>
-          <p>Rik Washburn</p>
-          <p>Sue Washburn</p>
-          <p>Will Washburn</p>
+        <div>
+          <p>
+            <div className="cursive">Ryan Baker:</div>
+            <div>Heavy cream & ice cream</div>
+          </p>
+          <p>
+            <div className="cursive">Sarah Baker & Lisa Denney:</div>
+            <div>Turnip gratin, sweet potato rounds & oatmeal chocolate chip cookies</div>
+          </p>
+          <p>
+            <div className="cursive">The Griffiths:</div>
+            <div>Green bean casserole, wine & beer</div>
+          </p>
+          <p>
+            <div className="cursive">The Washburns (II):</div>
+            <div>Butternut squash & cranberry pie</div>
+          </p>
+          <p>
+            <div className="cursive">The Washburns (III):</div>
+            <div>Turkey, gravy, stuffing, biscuits, mashed potatoes, mixed berry pie & pumpkin pie</div>
+          </p>
         </div>
       </div>
     </div>
