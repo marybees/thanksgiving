@@ -104,6 +104,13 @@ body {
     display: flex;
 }
 
+#dish-list-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .guest-list-column {
     display: flex;
     flex-direction: column;

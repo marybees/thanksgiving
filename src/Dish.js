@@ -10,7 +10,7 @@ const Dish = () => {
       <div className="image">
         <img src={turkey} alt="turkey"/>
       </div>
-      <div id="guest-list-container">
+      <div id="dish-list-container">
         <div>
           <p>
             <div className="cursive">Ryan Baker:</div>
