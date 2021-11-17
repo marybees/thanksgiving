@@ -25,11 +25,11 @@ const Dish = () => {
             <div>Green bean casserole, wine & beer</div>
           </p>
           <p>
-            <div className="cursive">The Washburns (II):</div>
+            <div className="cursive">The Washburns (North):</div>
             <div>Butternut squash & cranberry pie</div>
           </p>
           <p>
-            <div className="cursive">The Washburns (III):</div>
+            <div className="cursive">The Washburns (South):</div>
             <div>Turkey, gravy, stuffing, biscuits, mashed potatoes, mixed berry pie & pumpkin pie</div>
           </p>
         </div>
