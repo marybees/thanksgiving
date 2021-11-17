@@ -170,7 +170,7 @@ body {
     background-color: #8aa48b;
     margin: none;
     padding: 2rem;
-    height: 90vh;
+    height: auto;
 }
 
 .page-title {
