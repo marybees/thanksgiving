@@ -1,10 +1,14 @@
 import React from "react";
+import turkey from "./bw-turkey.png";
 
 const Dish = () => {
   return (
     <div className="page-container">
       <div className="page-title">
-        <p>Guest List</p>
+        <p>Who's Bringing What</p>
+      </div>
+      <div className="image">
+        <img src={turkey} alt="turkey"/>
       </div>
       <div id="guest-list-container">
         <div className="body-two-cursive guest-list-column" style={{ textAlign: "right" }}>

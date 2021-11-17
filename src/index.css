@@ -149,15 +149,16 @@ body {
     margin: 0 .25rem;
 }
 
+.image {
+    display: flex;
+    justify-content: center;
+}
+
 .page-container {
     background-color: #8aa48b;
     margin: none;
     padding: 2rem;
     height: 75vh;
-    background-image: url("./bw-turkey.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:auto;
 }
 
 .page-title {
