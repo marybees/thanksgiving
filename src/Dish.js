@@ -11,7 +11,7 @@ const Dish = () => {
         <img src={turkey} alt="turkey"/>
       </div>
       <div id="guest-list-container">
-        <div className="body-two-cursive guest-list-column" style={{ textAlign: "right" }}>
+        <div className="body-two-cursive guest-list-column">
           <p>Ryan Baker</p>
           <p>Sarah Baker</p>
           <p>Lisa Denney</p>
