@@ -1,8 +1,17 @@
+/* brown: #8F5429 */
+/* blue: #27353E */
+/* gray: #F1F0EF */
+/* pink: #E0D2D0 */
+
+i {
+    color: #F1F0EF;
+}
+
 body {
     margin: 0;
     font-family: 'Comfortaa', cursive;
     font-size: 1rem;
-    color: #735147;
+    color: white;
 }
 
 .body {
@@ -21,14 +30,18 @@ body {
 
 #body-one {
     font-family: 'La Belle Aurore', cursive;
-    text-shadow: 2px 2px #ffff;
     line-height: 1rem;
-    color: #666977;
-    background-image: url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1734&q=80");
+    color: black;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    border: 1px solid #F1F0EF;
+    margin: 10px 10px 10px 0;
+}
+
+.title-container {
+    text-shadow: 2px 2px white;
 }
 
 #body-one h1 {
@@ -42,10 +55,12 @@ body {
 #body-two {
     display: flex;
     flex-wrap: wrap;
-    color: #735147;
-    background-color: #8aa48b;
+    color: #F1F0EF;
+    background-color: #27353E;
     background-attachment: scroll;
     height: 75vh;
+    border: 1px solid #F1F0EF;
+    margin: 10px;
 }
 
 #body-two-heading-container {
@@ -62,7 +77,6 @@ body {
 
 #body-two-title {
     width: 100%;
-    background-image: url("./bw-turkey.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -73,7 +87,6 @@ body {
     font-family: 'La Belle Aurore', cursive;
     font-weight: 300;
     font-size: 3rem;
-    text-shadow: 2px 2px #ffff;
 }
 
 .body-two-subtitle {
@@ -114,6 +127,7 @@ body {
 .guest-list-column {
     display: flex;
     flex-direction: column;
+    font-size: 1rem;
 }
 
 .nav-body {
@@ -122,8 +136,8 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #f79259;
-    color: white;
+    background-color: #8F5429;
+    color: #F1F0EF;
 }
 
 .nav-body h2{
@@ -143,7 +157,7 @@ body {
 }
 
 .link:hover {
-    color: #8aa48b;
+    color: #E0D2D0;
 }
 
 #footer {
@@ -152,8 +166,8 @@ body {
     justify-content: center;
     text-align: center;
     padding: 2rem;
-    background-color: #666977;
-    color: white;
+    background-color: #E0D2D0;
+    color: #222222;
     font-size: .75rem;
 }
 
@@ -167,7 +181,7 @@ body {
 }
 
 .page-container {
-    background-color: #8aa48b;
+    background-color: #27353E;
     margin: none;
     padding: 2rem;
     height: auto;
@@ -175,7 +189,6 @@ body {
 
 .page-title {
     font-family: 'La Belle Aurore', cursive;
-    text-shadow: 2px 2px #ffff;
     font-size: 3.25rem;
     text-align: center;
 }

@@ -1,4 +1,6 @@
 import React from "react";
+import table from "./assets/table.JPG";
+import turkey from "./bw-turkey.png";
 
 const Home = () => {
   return (
@@ -19,6 +21,9 @@ const Home = () => {
           </div>
           <div id="body-two-title">
             <h1>Thanksgiving Dinner</h1>
+            <div className="image">
+              <img src={turkey} alt="turkey" />
+            </div>
           </div>
           <div className="body-two-subtitle">
             <p>HOSTED BY</p>
@@ -33,9 +38,11 @@ const Home = () => {
             </p>
           </div>
         </div>
-        <div className="body-half" id="body-one">
-          <h2>Please join us for a gathering of</h2>
-          <h1>family, friends, & food</h1>
+        <div className="body-half" id="body-one" style={{ backgroundImage: `url(${table})`, transform: 'scale(1, 1)' }}>
+          {/* <div className="title-container">
+            <h2>Please join us for a gathering of</h2>
+            <h1>family, friends, & food</h1>
+          </div> */}
         </div>
       </div>
     </div>
